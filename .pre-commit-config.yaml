@@ -26,4 +26,6 @@ repos:
       - id: terraform-docs-go
         args: [ "markdown", "table", "--output-file", "README.md", "./aws-static-website-hosting" ]
       - id: terraform-docs-go
+        args: [ "markdown", "table", "--output-file", "README.md", "./github-secrets" ]
+      - id: terraform-docs-go
         args: [ "markdown", "table", "--output-file", "README.md", "./gitlab-variables" ]

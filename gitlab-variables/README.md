@@ -27,7 +27,7 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_project"></a> [project](#input\_project) | The id of the project in Gitlab. | `string` | n/a | yes |
-| <a name="input_project_variables"></a> [project\_variables](#input\_project\_variables) | Variables store information, like passwords and secret keys, that you can use in job scripts. | <pre>map(object({<br>    value  = any<br>    masked = bool<br>  }))</pre> | `{}` | no |
+| <a name="input_project_variables"></a> [project\_variables](#input\_project\_variables) | Variables store information, like passwords and secret keys, that you can use in job scripts. | <pre>map(object({<br>    value     = any<br>    protected = bool<br>    masked    = bool<br>  }))</pre> | `{}` | no |
 
 ## Outputs
 
