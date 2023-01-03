@@ -27,7 +27,7 @@ No modules.
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
 | <a name="input_repository"></a> [repository](#input\_repository) | n/a | `string` | n/a | yes |
-| <a name="input_secrets"></a> [secrets](#input\_secrets) | n/a | `map(any)` | n/a | yes |
+| <a name="input_secrets"></a> [secrets](#input\_secrets) | n/a | `map(string)` | n/a | yes |
 
 ## Outputs
 

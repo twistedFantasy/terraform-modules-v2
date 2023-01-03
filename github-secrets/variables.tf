@@ -3,5 +3,5 @@ variable "repository" {
 }
 
 variable "secrets" {
-  type = map(any)
+  type = map(string)
 }
